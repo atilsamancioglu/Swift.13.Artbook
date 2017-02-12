@@ -13,6 +13,8 @@
 		FC95CA471E3DF96D00D71E68 /* Art_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC95CA451E3DF96D00D71E68 /* Art_Book.xcdatamodeld */; };
 		FC95CA491E3DF96D00D71E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC95CA481E3DF96D00D71E68 /* Assets.xcassets */; };
 		FC95CA4C1E3DF96D00D71E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC95CA4A1E3DF96D00D71E68 /* LaunchScreen.storyboard */; };
+		FC95CA541E3DFB9600D71E68 /* createVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC95CA531E3DFB9600D71E68 /* createVC.swift */; };
+		FCD7C0811E3DFF140019A2A1 /* tapme.png in Resources */ = {isa = PBXBuildFile; fileRef = FCD7C0801E3DFF140019A2A1 /* tapme.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FC95CA481E3DF96D00D71E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC95CA4B1E3DF96D00D71E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC95CA4D1E3DF96D00D71E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC95CA531E3DFB9600D71E68 /* createVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createVC.swift; sourceTree = "<group>"; };
+		FCD7C0801E3DFF140019A2A1 /* tapme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tapme.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +62,11 @@
 			children = (
 				FC95CA3E1E3DF96D00D71E68 /* AppDelegate.swift */,
 				FC95CA401E3DF96D00D71E68 /* ViewController.swift */,
+				FC95CA531E3DFB9600D71E68 /* createVC.swift */,
 				FC95CA421E3DF96D00D71E68 /* Main.storyboard */,
 				FC95CA481E3DF96D00D71E68 /* Assets.xcassets */,
 				FC95CA4A1E3DF96D00D71E68 /* LaunchScreen.storyboard */,
+				FCD7C0801E3DFF140019A2A1 /* tapme.png */,
 				FC95CA4D1E3DF96D00D71E68 /* Info.plist */,
 				FC95CA451E3DF96D00D71E68 /* Art_Book.xcdatamodeld */,
 			);
@@ -130,6 +136,7 @@
 				FC95CA4C1E3DF96D00D71E68 /* LaunchScreen.storyboard in Resources */,
 				FC95CA491E3DF96D00D71E68 /* Assets.xcassets in Resources */,
 				FC95CA441E3DF96D00D71E68 /* Main.storyboard in Resources */,
+				FCD7C0811E3DFF140019A2A1 /* tapme.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +149,7 @@
 			files = (
 				FC95CA411E3DF96D00D71E68 /* ViewController.swift in Sources */,
 				FC95CA3F1E3DF96D00D71E68 /* AppDelegate.swift in Sources */,
+				FC95CA541E3DFB9600D71E68 /* createVC.swift in Sources */,
 				FC95CA471E3DF96D00D71E68 /* Art_Book.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +314,7 @@
 				FC95CA521E3DF96D00D71E68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
